@@ -1,0 +1,16 @@
+<div ng-controller="CoreCtrl" layout="column" style="height:500px;" ng-cloak="">
+
+    <md-content>
+        <section layout="row" layout-sm="column" layout-align="center center" layout-wrap="" class="sectionCustom">
+            <md-button md-no-ink="" class="md-primary" ng-click="getVehicles()">Star Wars REST API</md-button>
+            <md-button md-no-ink="" class="md-primary" ng-click="getBacon()">Bacon Ipsum REST API</md-button>
+        </section>
+
+        <section>
+            <div>
+                <textarea json-text ng-model="restObject" cols="120" rows="10"/>
+            </div>
+        </section>
+    </md-content>
+
+</div>
